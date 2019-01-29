@@ -4,7 +4,7 @@ def large(a,n)
       if a[i]>max:
          max=a[i]
   return max
-  a=[]
-  n=len(a)
-  ans=large(a,n)
-  print(ans)
+a=[]
+n=len(a)
+ans=large(a,n)
+print(ans)
