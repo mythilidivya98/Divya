@@ -1,3 +1,4 @@
 a2=int(input())
-a=list(input().split())
-print(sorted(a))
+a1=list(input().split())
+b=sorted(a1)
+print(' '.join(b))
