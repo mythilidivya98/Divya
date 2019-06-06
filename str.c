@@ -7,6 +7,6 @@ int b;
 scanf("%d",&b);
 for(int i=0;i<b;i++)
 {
-printf("%s",a)
+printf("%s",a);
 }
 }
