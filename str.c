@@ -2,9 +2,8 @@
 void main()
 {
 char a[100];
-scanf("%s",a);
 int b;
-scanf("%d",&b);
+scanf("%s","%d",a,&b);
 for(int i=0;i<b;i++)
 {
 printf("%s",a);
