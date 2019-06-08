@@ -1,4 +1,4 @@
-1=int(input())
+n1=int(input())
 n2=list(input().split())
 r=sorted(n2)
 t=reversed(r)
