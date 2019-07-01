@@ -1,5 +1,5 @@
 a=input().split()
-b=[]
+ln=[]
 for i in a:
-    b.append(a[::-1])
-print(' '.join(b))
+  ln.append(i[::-1])
+print(*ln,sep=' ')
