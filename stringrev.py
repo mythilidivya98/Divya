@@ -1,5 +1,5 @@
 m=input()
-n=reverse[::-1]
+n=m[::-1]
 if(m==n):
     print("YES")
 else:
