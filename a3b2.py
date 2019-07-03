@@ -6,7 +6,6 @@ for i in range(0,len(a)):
         b.append(a[i])
     else:
         c.append(a[i])
-for i in range(int(c[0])):
-        print(b[0],end=" ")
-for i in range(int(c[1])):
-        print(b[1],end=" ")
+for i in range(len(b)):
+    for j in range(int(c[i])):
+        print(b[i],end=" ")
