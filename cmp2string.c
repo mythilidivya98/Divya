@@ -34,8 +34,16 @@ void main()
     }
     else
     {
-        printf("not equal=%d",diff);
+        if(diff>0)
+        {
+            printf("1st string is greater than 2nd string");
+        }
+        else
+        {
+        printf("2nd string is greater than 1st string");
+        }
     }
+    
     
     
 }
