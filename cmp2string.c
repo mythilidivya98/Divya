@@ -28,7 +28,7 @@ void main()
           break;
       }
     }
-    if(l==g)
+    if(d==l)
     {
     printf("Equal");
     }
